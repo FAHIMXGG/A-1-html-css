@@ -7,7 +7,7 @@
     padding: 0px;
 }
 header{
-    background-color: aqua;
+    background-color: #181200;
     padding-bottom: 13px;
     
 }
@@ -35,6 +35,83 @@ header li{
 }
 
 header li a{
+    color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header li a:hover{
+    color: #DECD87;
+}
+
+
+                                                       /* body */
+
+.background{
+    
+    background-image: url('data/img/back-1.png');
+    background-size: cover;
+    padding: 500px;
+}
+
+                                                       /* part1 */
+
+.part1{
+    background-color: #181200;
+    padding: 100px;
+}
+
+.part1 h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.part1 h3{
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+.part1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.part1 a:link {
+    background-color: white;
+    color: black;
+    border: 2px solid #DECD87;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .part1 a:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid #DECD87;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .part1 a:hover, a:active {
+    background-color: #DECD87;
+    color: white;
+  }
+
+/* .part1 button{
+  background-color: #C8AB37; 
+  border: none;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+} */
+
+
+
+/* @media only screen and (max-width: 600px) */
